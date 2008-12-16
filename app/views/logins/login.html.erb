@@ -1,0 +1,7 @@
+<% form_tag do %>
+	<%= text_field_tag :nome %>
+	<%= password_field_tag :senha %>
+	<%= submit_tag "Logar"%>
+<% end %>
+
+<%= link_to "Cadastrar", :controller => "usuarios", :action => "new" %>
